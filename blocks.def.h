@@ -5,14 +5,14 @@ static const Block blocks[] = {
 
 	{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
 
-	{"",  "sb-nettraf", 1,  16},
-        {"",  "sb-volume",  1,  10},
-        {"",  "sb-internet", 5,  5},
-        {"",  "sb-clock",  60, 1},
-        {"",  "sb-cpu", 1,  5},
-	{"",  "sb-cpubars", 1, 1},
-	{"",  "sb-disk",  300, 1},
-	{"",  "sb-music", 30, 5},
+	{"",  "~/.local/bin/sb-nettraf.sh", 1,  16},
+        {"",  "~/.local/bin/sb-volume.sh",  1,  10},
+        {"",  "~/.local/bin/sb-internet.sh", 5,  5},
+        {"",  "~/.local/bin/sb-clock.sh",  60, 1},
+        {"",  "~/.local/bin/sb-cpu.sh", 1,  5},
+	{"",  "~/.local/bin/sb-cpubars.sh", 1, 1},
+	{"",  "~/.local/bin/sb-disk.sh",  300, 1},
+	{"",  "~/.local/bin/sb-music.sh", 30, 5},
 };
 
 //sets delimiter between status commands. NULL character ('\0') means no delimiter.
